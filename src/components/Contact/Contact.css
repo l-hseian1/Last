@@ -1,0 +1,116 @@
+.contact{
+    padding: 0 70px;
+    margin: 50px 0;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C96E2;
+}
+.contact h3{
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #1D2130;
+    font-weight: 600;
+    line-height: 54px;
+}
+.contact span{
+    color: #0C96E2;
+}
+.contactInfo{
+    padding: 0 70px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contactInfo .contactNum{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contactInfo .contactNum .number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactInfo .contactNum .number img{
+    width: 61px;
+    height: 56px;
+}
+.contactInfo .contactNum .number p{
+    color: #92929D;
+}
+.contactInfo .contactNum .number p.ph_num{
+    color: #1D2130;
+}
+.contactInfo .contactNum .number a{
+    text-decoration: none;
+    color: #1D2130;
+}
+.contactInfo .contactNum .number .loc{
+    color: #1D2130;
+}
+.contactInfo .contactDesc{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactInfo .contactDesc input{
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 1px solid #BEC0BF;
+}
+.contactInfo .contactDesc .inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contactInfo .contactDesc .inputs input{
+    width: 50%;
+}
+.contactInfo .contactDesc  button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px ;
+    color: #FFFFFF;
+    background-color: #0C96E2;
+}
+.contactInfo .contactDesc .message{
+    height: 150px;
+}
+.dark-mode .contactInfo .contactDesc .inputs input,
+.dark-mode .contactInfo .contactDesc .Ph_input,
+.dark-mode .contactInfo .contactDesc .message
+{
+    background-color: #1D2130;
+}
+.dark-mode h3,
+.dark-mode .contactInfo .contactNum .number a,
+.dark-mode .contactInfo .contactNum .number p.ph_num,
+.dark-mode .contactInfo .contactNum .number .loc
+{
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:992px){
+    .contact , .contactInfo{
+        padding: 10px;
+        margin: 20px;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+    .contactInfo .contactNum .number{
+        font-size: 16px;
+        font-weight: 400;
+        gap: 10px;
+    }
+}

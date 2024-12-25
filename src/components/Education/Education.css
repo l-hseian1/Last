@@ -1,0 +1,243 @@
+.Education{
+    width: 100%;
+    height: 100%;
+    padding: 0 70px;
+    position: relative;
+}
+.Education .edu_img_one{
+    position: absolute;
+    top: -5%;
+    left: 85%;
+    width: 129px;
+}
+.Education .edu_img_two{
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    width: 129px;
+}
+.Education .title{
+    color: #0C96E2;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.Education .title img{
+    width: 129px;
+    height: 249px;
+}
+.Education h1{
+    color: #282938;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 90px;
+}
+
+.full_edu{
+    display: flex;
+}
+.full_edu .Edu_left{
+    width: 587px;
+    height: 284px;
+    display: flex;
+    gap: 40px;
+}
+.full_left
+{
+    display: flex;
+    flex-direction: column;
+}
+.full_left .Exp_left_one{
+    padding-bottom: 65px;
+}
+.full_left .Exp_left_one h3{
+    color: #344054;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 14px;
+}
+.full_left .Exp_left_one p{
+    color: #98A2B3;
+    font-size: 1.1rem;
+    line-height: 24px;
+}
+.full_left .Exp_left_two h3{
+    color: #344054;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 14px;
+}
+.full_left .Exp_left_two p{
+    color: #98A2B3;
+    font-size: 1.1rem;
+    line-height: 24px;
+}
+.dark-mode .full_left .Exp_left_one h3,
+.dark-mode .Education h1{
+    color: #FFFFFF;
+}
+.arrow-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-right: 70px;
+  }
+  .arrow-container button{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+  }
+.try{
+    width: 100%;
+    height: 100%;
+    padding: 0 70px;
+    position: relative;
+    margin-top: 40px;
+}
+.try .try_me{
+    width: 1180px;
+    height: 375px;
+    border-radius: 36px;
+    background-color: #0C96E2;
+    rotate: -2deg;
+ 
+}
+.try .try_desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 50px;
+    width: 1180px;
+    height: 375px;
+    border-radius: 36px;
+    color: #FFFFFF;
+    background-color: #583FBC;
+    background-image: url(./images/Vector\ 3.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+.try .try_desc  div{
+    padding:  0 50px;
+}
+.try .try_desc h2{
+    font-size: 2.1rem;
+    line-height: 75px;
+    font-weight: 600;
+}
+.try .try_desc p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+button{
+    background-color: #0C96E2;
+    width: 155px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+    .try{
+        padding: 0;
+    }
+    .try .try_me{
+        display: none;
+    }
+    .try .try_desc{
+        width: 390px;
+        height: max-content;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .Education{
+            padding: 0 20px;
+        }
+        .Education .edu_img_one,
+        .Education .edu_img_two
+        {
+            display: none;
+        }
+        .full_edu{
+            display: flex;
+            flex-direction: column;
+        }
+        .try{
+            padding: 0 20px;
+        }
+        .try .try_me{
+            width: 50%;
+        }
+    
+        .full_edu .Edu_left{
+            width: 350px;
+        }
+        .arrow-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 80px;
+           
+          }
+          .try .try_desc{
+           padding: 10px;
+           position: relative;
+           height: max-content;
+           width: 105%;
+        }
+        .try .try_desc h2{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    
+    }
+
+
+/* @media screen and (max-width: 992px) {
+    .Education{
+        padding: 0 20px;
+    }
+    .Education .edu_img_one,
+    .Education .edu_img_two
+    {
+        display: none;
+    }
+    .full_edu{
+        display: flex;
+        flex-direction: column;
+    }
+    .try{
+        padding: 0 20px;
+    }
+
+    .full_edu .Edu_left{
+        width: 350px;
+    }
+    .arrow-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 80px;
+       
+      }
+      .try .try_desc{
+       padding: 15px;
+       position: relative;
+       height: max-content;
+    }
+    .try .try_desc h2{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+} */
+

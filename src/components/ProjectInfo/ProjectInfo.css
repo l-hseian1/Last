@@ -1,0 +1,173 @@
+.Details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+.pt-128{
+    padding: 0rem 5.625rem;
+    padding-top:8rem;
+}
+
+.Details .container {
+    width: 100%;
+    padding: 2.4rem 2rem;
+    transition: all 0.4s ease;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+
+
+.container-text .btn-des .des{
+    color: #1D2130;
+}
+.dark-mode .container-text .btn-des .des{
+    color: #fff;
+}
+
+.Details .about-me {
+    border-radius: 2rem;
+    width: 50%;
+}
+
+.Details .container-img {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.Details .container-img img {
+    object-fit: cover;
+    width: 45%;
+}
+
+.Details .container-text {
+    width: 45%;
+    color: #fff9;
+    margin: 2rem 0 2.6rem;
+    line-height: 1.7;
+}
+.btn-des{
+    display: flex;
+}
+.btn-des .btn-demo a{
+    border: none;
+    background-color: #fff;
+
+}
+.dark-mode .btn-des .btn-demo a{
+    background-color: #1B2431;
+}
+.Details .child {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    flex-direction: column;
+    color:#1D2130;
+}
+
+.Details .child div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    flex-grow: 0;
+}
+
+.Details .container svg {
+    color: #4db5ff;
+    min-width: 16px;
+}
+
+.Details h4,
+.Details h3 {
+    font-weight: 500;
+}
+
+.Details .btn {
+    border: 1px solid #FFFFFF;
+    border-radius: .6rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: .75rem 1.2rem;
+    transition: all .4s ease;
+    text-decoration: none;
+    background: #0C96E2;
+    
+}
+
+
+
+.Details .btn-primary,
+.Details .btn:hover {
+    color: #FFFFFF;
+}
+
+
+
+.btn-arrow{
+    position: absolute;
+    top:4.5rem;
+    left:5.625rem ;
+}
+.btn-arrow svg   {
+
+    color: #2c2c6c;
+    object-fit: fill;
+}
+
+@media screen and (max-width:992px) {
+    .Details .child{
+        align-items: center;
+        justify-content: center;
+    }
+    .Details .container-img {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Details .container-img img {
+        width: 80%;
+    }
+    .Details .about-me {
+        width: 100%;
+    }
+    .Details .container-text{
+        width: 100%;
+
+    }
+    .Details h4,
+.Details h3 {
+    text-align: center;
+}
+.Details .child div {
+    width: 25%;
+    justify-content: start;
+    gap: 10px;
+    flex-grow: 0;
+}
+.Details .child div h4{
+    max-width: max-content;
+
+}
+.pt-128 {
+    padding: 0rem 9px;
+    padding-top: 8rem;
+  }
+  .btn-arrow{
+    left:9px ;
+  }
+}
+

@@ -1,0 +1,67 @@
+.OtherProjects {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.OtherProjects .portfolio-container {
+    width: 100%;
+    grid-gap: 3.5rem;
+    display: grid;
+    gap: 3.5rem;
+    grid-template-columns: repeat(3, 20rem);
+    justify-content: center;
+}
+.OtherProjects .circle{
+    
+    width: 100%;
+    height: 12.5rem;
+}
+.OtherProjects .circle img{
+    width: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.OtherProjects .other-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    margin-bottom: 1.5rem;
+}
+.OtherProjects .other-cont .other_title h5{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0C96E2;
+}
+.OtherProjects .other-cont .other_title h2{
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #1D2130;
+}
+.OtherProjects .other-cont .other_title span{
+    color: #0C96E2;
+}
+.dark-mode .OtherProjects .other-cont .other_title h2{
+    color: #ffff;
+}
+.OtherProjects .other-cont .other_btn {
+    display: flex;
+    gap: 10px;
+}
+.OtherProjects .other-cont .other_btn img{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width:767px) {
+    .OtherProjects .portfolio-container {
+        width: 100%;
+        grid-gap: 2.5rem;
+        display: grid;
+        gap: 2.5rem;
+        justify-content: center;
+        grid-template-columns: repeat(2, 0.5fr);
+    }
+  }

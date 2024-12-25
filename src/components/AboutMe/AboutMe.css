@@ -1,0 +1,225 @@
+.about{
+    padding:70px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-top: 1px dashed #AAC7D8;
+}
+.about .pic{
+    max-width: 450px;
+    position: relative;
+}
+
+.about .pic .circle{
+    width: 400px;
+}
+
+.about .pic .skill{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.about .pic .skill:hover{
+    transform: rotate(360deg);
+    transition: 1.5s ease;
+}
+
+.about .pic .html{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+}
+
+.about .pic .css{
+    position: absolute;
+    top: 16%;
+    left: 16%;
+}
+
+.about .pic .js{
+    position: absolute;
+    top: 68%;
+    left: 68%;
+}
+
+.about .pic .php{
+    position: absolute;
+    top: 25%;
+    left: 62%;
+}
+
+.about .pic .sql{
+    position: absolute;
+    top: 58%;
+    left: 21%;
+}
+
+.about .pic .bootstrap{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.about .pic .tailwind{
+    position: absolute;
+    top: 45%;
+    left: 74%;
+}
+
+.about .pic .react{
+    position: absolute;
+    top: 73%;
+    left: 40%;
+}
+
+.about .pic .github{
+    position: absolute;
+    top: 13%;
+    left: 44%;
+}
+
+.about .information{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #29353C;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.about .information h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.about .information p{
+    line-height: 27px;
+    font-size: 18px;
+}
+.dark-mode .about .information h1,
+.dark-mode .about .information p{
+    color: #FFFFFF;
+}
+
+.information .range{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.information .range .allRanges{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.information .range .allRanges input{
+    width: 170px;
+}
+.dark-mode .rangeNum95 rangeNumbers{
+    color: #FFFFFF;
+}
+
+ 
+
+.information .range .rangeNumbers{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information .range .rangeNumbers .rectangle{
+    width: 33px;
+    height: 20px;
+    font-size: 10px;
+    padding: 2px;
+    background-color: #0C96E1;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.information .range .rangeNumbers .triangle{
+    width: 0;
+    height: 0;
+    rotate: 90deg;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 8px solid #0C96E1;
+    position: absolute;
+    bottom: -9px;
+    left: 12px;
+}
+
+.information .range .rangeNum95 .percent{
+    position: absolute;
+    left: 81%;
+    bottom: 50%;
+}
+
+.information .range .rangeNum90 .percent{
+    position: absolute;
+    left: 76%;
+    bottom: 50%;
+}
+
+.information .range .rangeNum85 .percent{
+    position: absolute;
+    left: 72%;
+    bottom: 50%;
+}
+
+.information .range .rangeNum80 .percent{
+    position: absolute;
+    left: 67%;
+    bottom: 50%;
+}
+
+.information .range .rangeNum70 .percent{
+    position: absolute;
+    left: 58%;
+    bottom: 50%;
+}
+
+@media screen and (max-width:992px) {
+    .about{
+        padding: 15px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .pic .circle{
+        width: 270px;
+    }
+    .about .pic .skill{
+        width: 40px;
+        height: 40px;
+    }
+    .about .information{
+        width: 100%;
+        gap: 10px;
+    }
+    .about .information h1{
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .about .information h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .about .information p{
+        font-size: 16px;
+    }
+    .about .information .socialMedia{
+        font-size: 20px;
+    }
+}

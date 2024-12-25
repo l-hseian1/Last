@@ -1,0 +1,143 @@
+.information{
+    padding: 0 70px;
+    margin-top: 48px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+.information .left{
+    width: 562px;
+    height: 328px;
+    padding-top: 120px;
+}
+.information .left h3{
+    color: #7DE0EA;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.information .left .hey {
+    font-size: 3rem;
+    line-height: 60px;
+    color: #1D2130;
+}
+
+.information .left .desc{
+    font-size: 3rem;
+    line-height: 60px;
+    color: #1D2130;
+    padding-bottom: 40px;
+}
+.information .left p{
+    font-size: 1.1rem;
+    line-height: 20px;
+    color: #1D2130;
+    padding-bottom: 30px;
+}
+.information .left button{
+    background-color: #0C96E2;
+    width: 155px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+}
+.information .left button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.information .right{
+    width: 592px;
+    height: 464px;
+    padding-top: 120px;
+    position: relative;
+}
+.information .right .image_back{
+    background-color: #6aabce49;
+    border: none;
+    border-radius: 15px;
+    width:560px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.information .right .image_back img{
+    width: 250px;
+    height: 360px;
+    position: absolute; 
+    top: -20%;   
+}
+.information .social{
+    padding-top: 13vw;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.information .social p{
+    margin-bottom: 10px;
+    transform: rotate(90deg);
+    font-size: 10px;
+}
+.information .right .image_one{
+    position: absolute;
+    top: 100%;
+    left: 85%;
+}
+.information .right .image_two{
+    position: absolute;
+    top: 30%;
+    left: 78%;
+}
+.information .right .image_four{
+    position: absolute;
+    top: 70%;
+    left: -5%;
+}
+.information .right .image_five{
+    position: absolute;
+    top: 100%;
+    left: -2%;
+}
+.dark-mode .information .left .hey,
+.dark-mode .information .left .desc,
+.dark-mode .information .left p
+ {
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .information{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .information .right .image_back{
+        width: 500px;
+    }
+    .information .left .hey,
+    .information .left .desc
+    {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .information .social{
+        display: flex;
+        flex-direction: row;
+    }
+    .information .social p{
+        transform: rotate(0deg);
+        font-size: 18px;
+    }
+    .information .social .line{
+        transform: rotate(90deg);
+
+    }
+}
+
+
